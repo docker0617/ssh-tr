@@ -33,6 +33,6 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: docker0617/ssh-tr:latest
+          tags: dockerssh0617/ssh-tr:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
