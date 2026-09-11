@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   aetherx:
-    image: dockerssh0617/ssh-tr:latest
+    image: docker0617/ssh-tr:latest
     container_name: ssh-tr
     network_mode: host
     restart: always
